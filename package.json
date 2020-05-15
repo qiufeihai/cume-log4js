@@ -1,0 +1,42 @@
+{
+  "name": "cume-log4js",
+  "version": "1.0.0",
+  "description": " HTTP Appender for log4js-node",
+  "homepage": "https://log4js-node.github.io/log4js-node/",
+  "files": [
+    "lib",
+    "types"
+  ],
+  "keywords": [
+    "logging",
+    "log",
+    "log4j",
+    "node"
+  ],
+  "license": "Apache-2.0",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "scripts": {},
+  "directories": {
+    "test": "test",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^3.0.0",
+    "circular-json": "^0.5.9",
+    "config": "^3.2.5",
+    "log4js": "^3.0.5",
+    "lx-helpers": "^0.5.1",
+    "on-finished": "^2.3.0",
+    "path-to-regexp": "0.1.7"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0"
+  },
+  "browser": {
+    "os": false
+  }
+}

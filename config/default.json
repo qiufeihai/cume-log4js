@@ -1,0 +1,13 @@
+{
+  "loggerLeve": "info",
+  "log4js": {
+    "enable": false, // 是否发送到日志服务器
+    "url": "http://localhost:3133/logstest",
+    "apiOnly": [],
+    "apiExclude": [],
+    "cmdOnly": [],
+    "cmdExclude": [],
+    "tagOnly": [],
+    "tagExclude": []
+  }
+}
